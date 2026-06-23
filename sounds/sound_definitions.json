@@ -1,0 +1,17 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "jjba.ora": {
+      "category": "player",
+      "sounds": [{ "name": "sounds/ora", "stream": true, "volume": 1.0 }]
+    },
+    "jjba.star_finger": {
+      "category": "player",
+      "sounds": [{ "name": "sounds/star-finger", "stream": true, "volume": 1.0 }]
+    },
+    "jjba.the_world": {
+      "category": "player",
+      "sounds": [{ "name": "sounds/jotaro-the-world", "stream": true, "volume": 1.0 }]
+    }
+  }
+}

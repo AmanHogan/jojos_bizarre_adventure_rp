@@ -1,0 +1,31 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.star_platinum.state": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "animations": ["idle"],
+          "transitions": [
+            { "ora_rush": "query.property('jjba:move_state') == 1" },
+            { "star_finger": "query.property('jjba:move_state') == 2" }
+          ]
+        },
+        "ora_rush": {
+          "animations": ["ora_rush"],
+          "transitions": [
+            { "idle": "query.property('jjba:move_state') == 0" },
+            { "star_finger": "query.property('jjba:move_state') == 2" }
+          ]
+        },
+        "star_finger": {
+          "animations": ["star_finger"],
+          "transitions": [
+            { "idle": "query.property('jjba:move_state') == 0" },
+            { "ora_rush": "query.property('jjba:move_state') == 1" }
+          ]
+        }
+      }
+    }
+  }
+}

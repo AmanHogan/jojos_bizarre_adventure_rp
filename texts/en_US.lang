@@ -1,0 +1,12 @@
+item.jjba:ora_punch=ORA Punch
+item.jjba:nuke=Nuke
+item.jjba:stand_arrow=Stand Arrow (Star Platinum)
+item.jjba:sp_ora_rush=Star Platinum: ORA Rush
+item.jjba:sp_star_finger=Star Platinum: Star Finger
+item.jjba:the_world=Star Platinum: The World (ZA WARUDO)
+tile.jjba:nuke_tnt.name=Nuke TNT (Ground Burst)
+tile.jjba:nuke_tnt_air.name=Nuke TNT (Air Burst)
+tile.jjba:replace_bomb.name=Replace Bomb (Lag-Safe)
+
+entity.jjba:star_platinum.name=Star Platinum
+item.spawn_egg.entity.jjba:star_platinum.name=Spawn Star Platinum

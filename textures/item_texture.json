@@ -1,0 +1,12 @@
+{
+  "resource_pack_name": "jojos_bizarre_adventure",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "jjba_ora_punch": {
+      "textures": "textures/items/jjba_ora_punch"
+    },
+    "jjba_nuke": {
+      "textures": "textures/items/jjba_nuke"
+    }
+  }
+}

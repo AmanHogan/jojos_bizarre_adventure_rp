@@ -1,0 +1,17 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 0,
+  "texture_data": {
+    "jjba_nuke_tnt": {
+      "textures": "textures/blocks/jjba_nuke_tnt"
+    },
+    "jjba_nuke_tnt_air": {
+      "textures": "textures/blocks/jjba_nuke_tnt_air"
+    },
+    "jjba_replace_bomb": {
+      "textures": "textures/blocks/jjba_replace_bomb"
+    }
+  }
+}
