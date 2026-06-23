@@ -1,36 +1,25 @@
 {
-  "format_version": 2,
-  "header": {
-    "description": "",
-    "name": "JoJo's Bizarre Adventure",
-    "uuid": "cbf357ac-a2eb-3a3c-875a-737e5793cdb8",
-    "version": [
-      1,
-      0,
-      0
-    ],
-    "min_engine_version": [
-      1,
-      21,
-      90
-    ]
-  },
-  "modules": [
-    {
-      "description": "",
-      "type": "resources",
-      "uuid": "187962fe-fe4f-37ff-8ded-f79369c16216",
-      "version": [
-        1,
-        0,
-        0
-      ]
-    }
-  ],
-  "metadata": {
-    "authors": [
-      "MCreator"
-    ],
-    "url": "https://mcreator.net"
-  }
+	"format_version": 2,
+	"header": {
+		"description": "",
+		"name": "JoJo's Bizarre Adventure",
+		"uuid": "cbf357ac-a2eb-3a3c-875a-737e5793cdb8",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 21, 90]
+	},
+	"modules": [
+		{
+			"description": "",
+			"type": "resources",
+			"uuid": "187962fe-fe4f-37ff-8ded-f79369c16216",
+			"version": [1, 0, 0]
+		}
+	],
+	"metadata": {
+		"authors": ["MCreator"],
+		"url": "https://mcreator.net",
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.3"]
+		}
+	}
 }

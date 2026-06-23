@@ -5,7 +5,7 @@
 			"identifier": "jjba:star_platinum",
 			"min_engine_version": "1.8.0",
 			"materials": {
-				"default": "entity_alphatest"
+				"default": "husk"
 			},
 			"textures": {
 				"default": "textures/entity/star_platinum"
@@ -23,7 +23,7 @@
 				"star_finger": "animation.star_platinum.star_finger",
 				"state": "controller.animation.star_platinum.state"
 			},
-			"render_controllers": ["controller.render.evoker"],
+			"render_controllers": ["controller.render.default"],
 			"spawn_egg": {
 				"base_color": "#db04f0",
 				"overlay_color": "#6f6618"

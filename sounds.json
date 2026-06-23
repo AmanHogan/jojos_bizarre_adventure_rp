@@ -4,6 +4,13 @@
 			"jjba:star_platinum": {
 				"events": {
 					"ambient": "mob.evocation_illager.ambient",
+					"death": "mob.evocation_illager.death",
+					"hurt": "mob.evocation_illager.hurt",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.husk.step",
+						"volume": 0.35
+					},
 					"ambient.in.raid": {
 						"pitch": [0.8, 1.2],
 						"sound": "mob.evocation_illager.ambient",
@@ -11,8 +18,6 @@
 					},
 					"cast.spell": "mob.evocation_illager.cast_spell",
 					"celebrate": "mob.evocation_illager.celebrate",
-					"death": "mob.evocation_illager.death",
-					"hurt": "mob.evocation_illager.hurt",
 					"prepare.attack": "mob.evocation_illager.prepare_attack",
 					"prepare.summon": "mob.evocation_illager.prepare_summon",
 					"prepare.wololo": "mob.evocation_illager.prepare_wololo"

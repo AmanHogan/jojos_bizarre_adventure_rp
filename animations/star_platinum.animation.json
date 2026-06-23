@@ -4,70 +4,22 @@
 		"animation.star_platinum.idle": {
 			"loop": true,
 			"bones": {
-				"arms": { "scale": 1 },
-				"leftArm": { "scale": 0 },
-				"rightArm": { "scale": 0 },
-				"body": { "position": [0, "math.sin(query.life_time * 90) * 0.4", 0] }
+				"body": { "position": [0, "math.sin(query.life_time * 90) * 0.4", 0] },
+				"rightArm": { "rotation": [0, 0, "math.sin(query.life_time * 90) * 2"] },
+				"leftArm": { "rotation": [0, 0, "-math.sin(query.life_time * 90) * 2"] }
 			}
 		},
 		"animation.star_platinum.ora_rush": {
 			"loop": true,
 			"bones": {
-				"arms": { "scale": 0 },
-				"leftArm": {
-					"scale": 1,
-					"rotation": ["-90 + math.cos(query.life_time * 1400) * 35", 0, 0]
-				},
-				"rightArm": {
-					"scale": 1,
-					"rotation": ["-90 + math.cos(query.life_time * 1400 + 180) * 35", 0, 0]
-				}
+				"rightArm": { "rotation": ["-90 + math.cos(query.life_time * 1400) * 35", 0, 0] },
+				"leftArm": { "rotation": ["-90 + math.cos(query.life_time * 1400 + 180) * 35", 0, 0] }
 			}
 		},
 		"animation.star_platinum.star_finger": {
 			"loop": true,
 			"bones": {
-				"arms": { "scale": 0 },
-				"leftArm": { "scale": 0 },
-				"rightArm": { "scale": 1, "rotation": [-95, 0, 0] }
-			}
-		},
-		"animation.star_platinum.casting": {
-			"loop": true,
-			"bones": {
-				"arms": { "scale": 0 },
-				"leftArm": {
-					"rotation": ["math.cos(query.life_time * 763.4) * 14.3239 - this", "-this", "-135.0 - this"],
-					"scale": 1
-				},
-				"rightArm": {
-					"rotation": ["math.cos(query.life_time * 763.4) * 14.3239 - this", "-this", "135.0 - this"],
-					"scale": 1
-				}
-			}
-		},
-		"animation.star_platinum.general": {
-			"loop": true,
-			"bones": {
-				"arms": {
-					"position": [0, "-3.0 - this", "-1.0 - this"],
-					"rotation": ["-42.97 - this", "- this", "- this"],
-					"scale": 1
-				},
-				"leftArm": { "scale": 0 },
-				"rightArm": { "scale": 0 }
-			}
-		},
-		"animation.star_platinum.move": {
-			"anim_time_update": "query.modified_distance_moved",
-			"loop": true,
-			"bones": {
-				"leg0": {
-					"rotation": ["(math.cos(query.anim_time * 38.17) * 40.0) - this", "-this", 0]
-				},
-				"leg1": {
-					"rotation": ["(math.cos(query.anim_time * 38.17 + 180) * 40.0) - this", "-this", 0]
-				}
+				"rightArm": { "rotation": [-95, 0, 0] }
 			}
 		}
 	}
